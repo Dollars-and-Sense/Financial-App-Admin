@@ -70,7 +70,7 @@ const TheHeader = () => {
             logoutAndRedirect();
           }}
         >
-          <CIcon name="account-logout" alt="Logout" />
+          <CIcon name="cilAccountLogout" alt="Logout" />
           &nbsp;Logout
         </CLink>
       </CHeaderNav>
