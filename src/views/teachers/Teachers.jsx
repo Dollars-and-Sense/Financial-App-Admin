@@ -38,50 +38,50 @@ const Teachers = () => {
     retrieveTeachers();
   }, []);
 
-  const tempData = [
-    {
-      _id: "1",
-      organization: "Riser Middle School",
-      name: "Ashish Dev",
-      isAuthorized: false,
-      joinedOn: "2021/04/20",
-    },
-    {
-      _id: "2",
-      organization: "Riser Middle School",
-      name: "Ashish Dev",
-      isAuthorized: true,
-      joinedOn: "2021/04/20",
-    },
-    {
-      _id: "3",
-      organization: "Riser Middle School",
-      name: "Ashish Dev",
-      isAuthorized: false,
-      joinedOn: "2021/04/20",
-    },
-    {
-      _id: "4",
-      organization: "Riser Middle School",
-      name: "Ashish Dev",
-      isAuthorized: true,
-      joinedOn: "2021/04/20",
-    },
-    {
-      _id: "5",
-      organization: "Riser Middle School",
-      name: "Ashish Dev",
-      isAuthorized: false,
-      joinedOn: "2021/04/20",
-    },
-    {
-      _id: "0000000023456",
-      organization: "Riser Middle School",
-      name: "Ashish Dev",
-      isAuthorized: false,
-      joinedOn: "2021/04/20",
-    },
-  ];
+  // const tempData = [
+  //   {
+  //     _id: "1",
+  //     organization: "Riser Middle School",
+  //     name: "Ashish Dev",
+  //     isAuthorized: false,
+  //     joinedOn: "2021/04/20",
+  //   },
+  //   {
+  //     _id: "2",
+  //     organization: "Riser Middle School",
+  //     name: "Ashish Dev",
+  //     isAuthorized: true,
+  //     joinedOn: "2021/04/20",
+  //   },
+  //   {
+  //     _id: "3",
+  //     organization: "Riser Middle School",
+  //     name: "Ashish Dev",
+  //     isAuthorized: false,
+  //     joinedOn: "2021/04/20",
+  //   },
+  //   {
+  //     _id: "4",
+  //     organization: "Riser Middle School",
+  //     name: "Ashish Dev",
+  //     isAuthorized: true,
+  //     joinedOn: "2021/04/20",
+  //   },
+  //   {
+  //     _id: "5",
+  //     organization: "Riser Middle School",
+  //     name: "Ashish Dev",
+  //     isAuthorized: false,
+  //     joinedOn: "2021/04/20",
+  //   },
+  //   {
+  //     _id: "0000000023456",
+  //     organization: "Riser Middle School",
+  //     name: "Ashish Dev",
+  //     isAuthorized: false,
+  //     joinedOn: "2021/04/20",
+  //   },
+  // ];
 
   const tempFields = [
     { key: "name", _style: { width: "25%" } },

@@ -5,8 +5,6 @@ import {
   CToggler,
   CHeaderBrand,
   CHeaderNav,
-  CHeaderNavItem,
-  CHeaderNavLink,
   CSubheader,
   CBreadcrumbRouter,
   CLink,
@@ -17,24 +15,18 @@ import logo from "src/assets/united_logo.svg";
 // routes config
 import routes from "../routes";
 
-import {
-  TheHeaderDropdown,
-  TheHeaderDropdownMssg,
-  TheHeaderDropdownNotif,
-  TheHeaderDropdownTasks,
-} from "./index";
 import { logoutAndRedirect } from "src/utils/logout";
 
 const TheHeader = () => {
   const dispatch = useDispatch();
   const sidebarShow = useSelector((state) => state.sidebarShow);
 
-  const toggleSidebar = () => {
-    const val = [true, "responsive"].includes(sidebarShow)
-      ? false
-      : "responsive";
-    dispatch({ type: "set", sidebarShow: val });
-  };
+  // const toggleSidebar = () => {
+  //   const val = [true, "responsive"].includes(sidebarShow)
+  //     ? false
+  //     : "responsive";
+  //   dispatch({ type: "set", sidebarShow: val });
+  // };
 
   const toggleSidebarMobile = () => {
     const val = [false, "responsive"].includes(sidebarShow)

@@ -11,9 +11,9 @@ const MainChartExample = ({ style, dataInterval }) => {
 
   // The lables will eventually come from backend
   useEffect(() => {
-    if (dataInterval == "Week") {
+    if (dataInterval === "Week") {
       setLabels(["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"]);
-    } else if (dataInterval == "Month") {
+    } else if (dataInterval === "Month") {
       setLabels([
         "Mo",
         "Tu",
