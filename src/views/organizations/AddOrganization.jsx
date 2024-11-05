@@ -28,7 +28,7 @@ const AddOrganization = () => {
 
   const updateDisabled = () => {
     for (let x in form) {
-      if (form[x] == "") {
+      if (form[x] === "") {
         setDisabled(true);
         return;
       }
@@ -73,7 +73,6 @@ const AddOrganization = () => {
                     <CInput
                       id="name"
                       required
-                      onChange={updateForm}
                       onChange={updateForm}
                       value={form.name}
                     />
