@@ -1,4 +1,4 @@
-import { getLocalStorage, setLocalStorage } from "../utils/others";
+import { getLocalStorage } from "../utils/others";
 
 function header() {
   return { "Content-Type": "application/json" };

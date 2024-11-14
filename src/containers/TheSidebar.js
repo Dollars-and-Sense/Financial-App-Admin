@@ -12,7 +12,7 @@ import {
   CSidebarNavItem,
 } from "@coreui/react";
 
-import CIcon from "@coreui/icons-react";
+// import CIcon from "@coreui/icons-react";
 import logo from "src/assets/united_logo.svg";
 import logo2 from "src/assets/united_logo_hand.png";
 

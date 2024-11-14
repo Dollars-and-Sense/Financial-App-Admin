@@ -1,4 +1,3 @@
-import React from "react";
 import Teachers from "./views/teachers/Teachers";
 
 import Dashboard from "./views/dashboard/Dashboard";

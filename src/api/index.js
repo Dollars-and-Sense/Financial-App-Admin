@@ -1,4 +1,4 @@
-import { authGet, post, authPost, authPut, get, authDelete } from "./request";
+import { authGet, authPost, authPut, get, authDelete } from "./request";
 import { API } from "./routes";
 
 export default {

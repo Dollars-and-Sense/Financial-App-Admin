@@ -1,5 +1,5 @@
-import React, { Component, useEffect, useState } from "react";
-import { BrowserRouter, Route, Switch, useHistory } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { /* BrowserRouter, */ Route, Switch, useHistory } from "react-router-dom";
 import api from "./api";
 import "./scss/style.scss";
 import { setLocalStorage } from "./utils/others";

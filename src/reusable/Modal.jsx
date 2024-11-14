@@ -23,7 +23,8 @@ const Modal = ({
   return (
     <>
       <CModal alignment="center" show={visible} color={color}>
-        <CModalHeader onDismiss={() => setVisible(false)}>
+        <CModalHeader>
+          {/* NOTE: CModalHeader previously had onDismiss={() => setVisible(false)} */}
           <CModalTitle>{title}</CModalTitle>
         </CModalHeader>
         <CModalBody>{body}</CModalBody>
